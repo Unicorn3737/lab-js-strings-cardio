@@ -40,7 +40,8 @@ console.log(coolString);
 const string3 = "Na";
 
 // Your code here...
-
+const BatmanStr = string3.repeat(4) + " " + "Batman!";
+console.log("batman Str", BatmanStr);
 
 
 
@@ -52,7 +53,8 @@ const string3 = "Na";
 const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pineapple";
 
 // Your code here...
-
+const ourFavFruit = fruit.slice(0, 6);
+console.log("banana", ourFavFruit);
 
 
 /***************************************************
@@ -64,7 +66,12 @@ const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pinea
 
 const funnyHeadline1 = "Breathing oxygen linked to staying alive";
 const funnyHeadline2 = "Students Cook & Serve Grandparents";
-
+const doesItHaveOxygen = funnyHeadLine1.includes("oxygen");
+if (doesItHaveOxygen) {
+    console.log(`The string includes the word 'oxygen'`);
+} else {
+    console.log(`The string does not include the word 'oxygen'`);
+    }
 
 // Check the first headline
 // Your code here ...
